@@ -191,6 +191,30 @@ team-task-manager/
 
    The application will run on `http://localhost:5173`
 
+## 🚀 Deployment
+
+Ready to deploy to production? Follow these comprehensive guides:
+
+### Quick Start (5-10 minutes)
+📘 **[Railway Deployment Guide](./RAILWAY_DEPLOYMENT.md)** - Fast track to production with Railway, Vercel/Netlify, and MongoDB Atlas
+
+### Detailed Setup with Checklist
+📋 **[Railway Deployment Checklist](./RAILWAY_CHECKLIST.md)** - Step-by-step walkthrough with verification tests at each phase
+
+### Complete Production Setup
+📗 **[Production Setup Guide](./PRODUCTION_SETUP.md)** - Comprehensive guide covering architecture, troubleshooting, and monitoring
+
+### Original Deployment Documentation
+📚 **[Deployment Guide](./DEPLOYMENT.md)** - Full documentation with all platform options
+
+**Current Deployment Status**: ✅ Production-ready
+- Backend: Ready for Railway deployment
+- Frontend: Ready for Vercel/Netlify deployment  
+- Database: MongoDB Atlas configured
+- GitHub: Code pushed to `aps4934/team_task_management`
+
+**Minimum deployment time**: 15-20 minutes
+
 ## API Documentation
 
 ### Authentication Endpoints
