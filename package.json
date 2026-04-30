@@ -1,0 +1,30 @@
+{
+  "name": "Team Task Manager",
+  "version": "1.0.0",
+  "description": "A comprehensive full-stack web application for managing team projects and tasks",
+  "main": "team-task-manager",
+  "directories": {
+    "backend": "./backend",
+    "frontend": "./frontend"
+  },
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "test": "npm --prefix backend test",
+    "lint": "npm --prefix frontend lint"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "project",
+    "team",
+    "collaboration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
